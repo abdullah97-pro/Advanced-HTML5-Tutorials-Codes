@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 600px;
+	height: auto;
+	background-color: aliceblue;
+	padding: 15px;
+}
+
+#name {
+	display: inline-block;
+	width: 49.5%;
+	text-align: left;
+	font-family: 'Copperplate Gothic';
+}
+
+#inc {
+	display: inline-block;
+	width: 49.5%;
+	text-align: right;
+	font-family: 'Jokerman';
+	font-size: 30px;
+}
+
+table.tb1,
+table.tb2 {
+	width: 100%;
+	font-size: 12px;
+	border-collapse: collapse;
+}
+
+table.tb2 tr:nth-child(even) {
+	background-color: antiquewhite;
+}
+
+th,td {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.right td:not(:first-child) {
+	text-align: right;
+}
+
+.right td:last-of-type {
+	border: 1px solid black;
+}
+
+table.tb2 .right td:last-of-type {
+	border: none;
+}
+
+.empty td:empty {
+	padding: 10px;
+}
+
+table.tb2 {
+	border: 2px solid blue;
+}
+
+table.tb2 .empty td:empty {
+	padding: 7px;
+}
+
+#bill th {
+	text-align: left;
+	background-color: darkblue;
+	color: white;
+}
+
+#desc th {
+	text-align: center;
+	background-color: darkblue;
+	color: white;
+}

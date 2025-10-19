@@ -1,0 +1,39 @@
+.header {
+    width: 100%;
+    height: 100px;
+}
+
+.header .date {
+    width: 33%;
+    height: 100px;
+    float: left;
+}
+
+.header .title {
+    width: 33%;
+    height: 100px;
+    text-align: center;
+    float: left;
+    margin-left: 0.5%;
+}
+
+.header .date h3,
+.header .title h2 {
+    font-size: 40px;
+}
+
+.header .image {
+    width: 33%;
+    height: 100px;
+    float: right;
+}
+
+.header div img {
+    width: 150px;
+    float: right;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+}

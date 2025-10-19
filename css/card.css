@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
+.box1 {
+    width: 25%;
+    height: 340px;
+    background-color: rgb(253, 253, 253);
+    float: left;
+    margin-left: 6.25%;
+    margin-top: 30px;
+    padding-top: 50px;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.5);
+}
+
+.box1 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1 span {
+    display: block;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 18px;
+    color: black;
+    font-family: 'Elephant';
+}

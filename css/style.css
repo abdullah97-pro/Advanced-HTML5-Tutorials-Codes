@@ -1,0 +1,17 @@
+body {
+    background-color: lightblue;
+}
+
+p {
+    font-family: 'Georgia';
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: beige;
+}
+
+p span {
+    color: red;
+    font-weight: 700;
+}

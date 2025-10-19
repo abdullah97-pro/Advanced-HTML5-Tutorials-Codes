@@ -1,0 +1,11 @@
+ol {
+    list-style-type: upper-alpha;
+}
+
+ol li ol {
+    list-style-type: decimal;
+}
+
+ol li ol li ol {
+    list-style-type: disc;
+}
