@@ -41,7 +41,7 @@ table {
 }
 
 th, td {
-    border: 1px solid red;
+    border: 1px solid black;
 }
 
 table #infotitle th {
@@ -54,4 +54,8 @@ table th:empty {
 
 table .txtDir {
     writing-mode: sideways-rl;
+}
+
+table .emptybox {
+    border: none;
 }
