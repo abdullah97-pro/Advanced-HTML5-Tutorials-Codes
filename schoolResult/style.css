@@ -40,7 +40,7 @@ table {
     border-collapse: collapse;
 }
 
-th {
+th, td {
     border: 1px solid red;
 }
 
@@ -50,4 +50,8 @@ table #infotitle th {
 
 table th:empty {
     width: 25px;
+}
+
+table .txtDir {
+    writing-mode: sideways-rl;
 }
