@@ -1,3 +1,8 @@
+body {
+    border: 10px double rgb(180, 12, 0);
+    padding: 10px;
+}
+
 .header {
     width: 100%;
     height: 100px;
@@ -48,8 +53,9 @@ table #infotitle th {
     text-align: right;
 }
 
-table th:empty {
-    width: 25px;
+table th.ept:empty {
+    width: 20px;
+    border-bottom: 1px solid transparent;
 }
 
 table .txtDir {
