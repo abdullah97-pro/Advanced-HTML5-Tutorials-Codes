@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    height: 100vh;
+    background-color: rgb(50, 54, 54);
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 5vh;
+}
+
+.header h2 {
+    float: left;
+    color: white;
+    padding: 2px 15px;
+}
+
+.header .btns {
+    float: right;
+}
+
+.header .btns button {
+    padding: 8px 12px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.header .btns button:first-child:hover {
+    background-color: rgb(31, 34, 34);
+}
+
+.header .btns button:last-child:hover {
+    background-color: rgb(255, 0, 0);
+}
