@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            display: block;
+        }
+
+        .active {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+    
+    <a href="#">BOX
+
+        <div id="box"></div>
+    </a>
+
+    <script>
+        const taga = document.querySelector('a');
+        const box = document.querySelector('#box');
+        
+        taga.addEventListener('click', () => {
+            box.style.backgroundColor = "blue";
+            box.classList.toggle("active");
+        });
+
+    </script>
+
+</body>
+</html>
