@@ -1,0 +1,49 @@
+.box1 {
+    width: 100%;
+    height: auto;
+}
+
+.box1 img {
+    width: 60px;
+    height: 80px;
+}
+
+p {
+    background-color: antiquewhite;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-group span {
+    float: left;
+    margin-left: 50px;
+}
+
+.form-group select {
+    float: right;
+}
+
+.form-group select {
+    width: 300px;
+    padding: 5px 0;
+    border-radius: 3px;
+    background-color: blueviolet;
+    margin-right: 150px;
+}
+
+.form-group select option {
+    background-color: red;
+}
+
+.lists {
+    width: 40%;
+    height: 400px;
+    background-color: pink;
+    overflow: scroll;
+}
