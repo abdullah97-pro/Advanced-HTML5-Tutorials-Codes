@@ -8,7 +8,7 @@
 </head>
 <body>
     
-    <form action="" method="post" enctype="multipart/form-data">
+    <!-- <form action="" method="post" enctype="multipart/form-data">
         <div class="form-group">
             <input type="text" name="name" placeholder="Enter First Name" required>
         </div>
@@ -24,6 +24,12 @@
         <div class="form-group">
             <input type="submit" value="Save">
         </div>
+    </form> -->
+
+    <form action="" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range" id="a" name="a" value="0"> + 100
+        <input type="number" id="b" name="b" value="1"> = 
+        <output name="x" for="a b"></output>
     </form>
 
 </body>
