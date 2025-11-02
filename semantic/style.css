@@ -40,8 +40,31 @@ nav .brand a {
 nav .navbar {
     width: 70%;
     height: 100%;
-    background-color: yellow;
     float: right;
+    list-style-type: none;
+}
+
+nav .navbar li {
+    display: inline-block;
+}
+
+nav .navbar li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    padding: 36px 25px;
+    border-right: 2px solid red;
+}
+
+nav .navbar li:last-child a {
+    border-right: none;
+}
+
+nav .navbar li a:hover {
+    background-color: rgba(210, 213, 213, 0.7);
+    color: red;
 }
 
 main {
