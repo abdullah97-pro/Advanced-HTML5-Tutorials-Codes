@@ -107,6 +107,7 @@ main {
     height: 100%;
     float: right;
     overflow: auto;
+    padding: 50px 5px;
 }
 
 footer {
