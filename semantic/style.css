@@ -79,6 +79,11 @@ main {
     float: left;
 }
 
+#leftside  video {
+    width: 100%;
+    height: auto;
+}
+
 #container {
     width: 79.5%;
     height: 100%;
