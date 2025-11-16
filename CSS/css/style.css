@@ -1,0 +1,16 @@
+body {
+    background-color: orange;
+}
+
+h1 {
+    color: rgb(14, 203, 209);
+    background-color: rgba(255,255,255,0.5);
+}
+/* 
+name
+rgb - red 0-255 green 0-255 blue 0-255 => 255*255*255=16M
+rgba - a - alpha 0-1 0.1 0.2 - 0.9 1
+hsl
+hsla
+hexadecimal
+*/
