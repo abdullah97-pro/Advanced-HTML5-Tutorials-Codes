@@ -1,23 +1,17 @@
-h1 {
-    color: #ff0000;
-    /* background-color: rgba(255,255,255,0.5); */
+:root {
+    --color1: #5dae11;
+    --color2: #00ff00;
+    --bg-color: #1022c6;
 }
-/* 
-name
-rgb - red 0-255 green 0-255 blue 0-255 => 255*255*255=16M
-rgba - a - alpha 0-1 0.1 0.2 - 0.9 1
-hsl - hue , sturation, lightness
-hsla
-hexadecimal - 16 15 - 0-9 a-f -> # 2-red 2-green 2-blue #221109 #aaaaaa / #aaa
-0
-.
-.
-.
-9
-a = 10
-b = 11
-c = 12
-d = 13
-e = 14
-f = 15
-*/
+
+.box1 {
+    background-color: var(--color1);
+}
+
+.box1:first-child {
+    background-color: orange;
+}
+
+.box1:first-child h1 {
+    color: var(--color1);
+}
