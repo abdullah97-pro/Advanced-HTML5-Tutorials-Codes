@@ -16,11 +16,20 @@
 .box1 {
     width: 500px;
     background-color: var(--color1);
-    /* margin: 50px; */
+    margin: 10px;
    /* margin: 50px 100px;  top+bottom left+right   */
     /*margin: 50px 100px 150px 200px;  top right bottom left   */
     padding-left: var(--padding-30);
     padding-top: var(--padding-30);
+
+    /* border-width: 5px;
+    border-style: ridge;
+    border-color: bisque; */
+    /* border:  5px ridge bisque; */
+    border-left: 2px solid navy;
+    border-top: 5px dotted goldenrod;
+    border-right: 7px double green;
+    border-bottom: 9px ridge olive;
 }
 
 .box1:first-child {
