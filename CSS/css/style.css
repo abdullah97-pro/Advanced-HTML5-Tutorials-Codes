@@ -1,16 +1,23 @@
-body {
-    background-color: orange;
-}
-
 h1 {
-    color: rgb(14, 203, 209);
-    background-color: rgba(255,255,255,0.5);
+    color: #ff0000;
+    /* background-color: rgba(255,255,255,0.5); */
 }
 /* 
 name
 rgb - red 0-255 green 0-255 blue 0-255 => 255*255*255=16M
 rgba - a - alpha 0-1 0.1 0.2 - 0.9 1
-hsl
+hsl - hue , sturation, lightness
 hsla
-hexadecimal
+hexadecimal - 16 15 - 0-9 a-f -> # 2-red 2-green 2-blue #221109 #aaaaaa / #aaa
+0
+.
+.
+.
+9
+a = 10
+b = 11
+c = 12
+d = 13
+e = 14
+f = 15
 */
