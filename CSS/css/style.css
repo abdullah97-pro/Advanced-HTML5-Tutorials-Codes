@@ -2,10 +2,25 @@
     --color1: #5dae11;
     --color2: #00ff00;
     --bg-color: #1022c6;
+
+    /* padding */
+    --padding-30: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .box1 {
+    width: 500px;
     background-color: var(--color1);
+    /* margin: 50px; */
+   /* margin: 50px 100px;  top+bottom left+right   */
+    /*margin: 50px 100px 150px 200px;  top right bottom left   */
+    padding-left: var(--padding-30);
+    padding-top: var(--padding-30);
 }
 
 .box1:first-child {
