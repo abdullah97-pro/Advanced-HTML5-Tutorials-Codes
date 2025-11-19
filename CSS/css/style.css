@@ -1,26 +1,23 @@
-.tv {
-    width: 400px;
-    height: 300px;
+a {
+    color: white;
     background-color: black;
-    padding: 10px 0;
-    margin: 30px;
 }
 
-.monitor {
-    width: 380px;
-    height: 300px;
-    background-color: gray;
-    margin-left: auto;
-    margin-right: auto;
+a:link {
+    color: red;
+    background-color: rgb(74, 9, 9);
 }
 
+a:visited {
+    color: aqua;
+    background-color: tomato;
+}
 
-.tv1 {
-    width: 400px;
-    height: 300px;
-    background-color: gray;
-    border: 10px solid red;
-    outline: 15px solid black;
-    outline-offset: 7px;
-    margin: 50px;
+a:active {
+    color: yellow;
+    background-color: orange;
+}
+
+a:hover {
+    color: blue;
 }
