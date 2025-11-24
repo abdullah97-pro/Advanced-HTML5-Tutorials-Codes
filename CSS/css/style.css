@@ -38,6 +38,11 @@
 
 .nav .nav-list {
     display: inline-block;
+    border-right: 1px solid red;
+}
+
+.nav .nav-list:last-child {
+    border: none;
 }
 
 .nav .nav-list .nav-item {
