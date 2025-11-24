@@ -7,20 +7,21 @@
 .navbar {
     width: 100%;
     height: 70px;
-    background-color: brown;
+    background-color: rgb(50, 7, 7, 0.8);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .brand {
     width: 10%;
     height: 100%;
-    background-color: yellow;
+    float: left;
 }
 
 .brand a {
     display: block;
     width: calc(100% - 20%);
+    height: 100%;
     margin: 0px auto;
-    background-color: pink;
 }
 
 .brand a img {
@@ -30,8 +31,27 @@
 
 .nav {
     list-style-type: none;
-    width: calc(100% - 10%);
+    width: 50%;
     height: 100%;
-    margin: 0 auto;
-    background-color: red;
+    float: right;
+}
+
+.nav .nav-list {
+    display: inline-block;
+}
+
+.nav .nav-list .nav-item {
+    display: inline-block;
+    width: 120px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-family: tahoma;
+    font-size: large;
+    padding: 24px 10px;
+    text-align: center;
+}
+
+.nav .nav-list .nav-item:hover {
+    background-color: rgb(150, 148, 148);
 }
