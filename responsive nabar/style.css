@@ -2,6 +2,7 @@
     --color-black: #000;
     --color-white: #fff;
     --color-red: #f00;
+    --color-01: #6c6a6a;
 }
 
 * {
@@ -48,6 +49,46 @@
     border-bottom: 1px solid var(--color-red);
 }
 
+.nav .nav-list .nav-item:hover {
+    background-color: var(--color-01);
+}
+
 .nav .nav-list:last-child .nav-item {
     border: none;
+}
+
+.active {
+    background-color: var(--color-01);
+}
+
+@media (min-width: 748px) {
+    .navbar {
+        height: 80px;
+    }
+    
+    .brand {
+        width: 20%;
+        height: 100%;
+        float: left;
+    }
+
+    .brand a img {
+        width: 160px;
+    }
+    .nav {
+        width: 80%;
+        height: 100%;
+        float: right;
+    }
+
+    .nav .nav-list {
+        display: inline-block;
+    }
+
+    .nav .nav-list .nav-item {
+        width: 120px;
+        border-bottom: none;
+        padding: 30px 20px;
+        text-align: center;
+    }
 }
