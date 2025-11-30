@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,th,td {
+    border: 1px solid red;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+tr:nth-child(3n+2) {
+    background-color: gray;
+}
