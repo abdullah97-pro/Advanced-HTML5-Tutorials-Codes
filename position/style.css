@@ -66,6 +66,18 @@ article table th:hover {
     border: 5px solid brown;
 }
 
+section p {
+  font-family: 'Bitcount Prop Single', sans-serif;
+}
+
+section h1 {
+  font-family: "Playwrite Norge", sans-serif;
+}
+
+article h1 {
+  font-family: 'Reem Kufi',sans-serif;
+}
+
 /* CSS */
 .button-17 {
   align-items: center;

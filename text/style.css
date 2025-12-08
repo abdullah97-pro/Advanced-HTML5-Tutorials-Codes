@@ -1,0 +1,26 @@
+/* h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    text-align-last: center;
+}
+
+p span {
+    font-size: 10px;
+    vertical-align: baseline;
+}
+
+p span.v1 {
+    vertical-align: super;
+}
+
+p span.v2 {
+    vertical-align: sub;
+} */
+
+p {
+    direction: rtl;
+    /* unicode-bidi: bidi-override; */
+}
