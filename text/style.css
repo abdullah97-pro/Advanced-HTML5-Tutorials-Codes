@@ -20,7 +20,15 @@ p span.v2 {
     vertical-align: sub;
 } */
 
-p {
+/* p {
     direction: rtl;
-    /* unicode-bidi: bidi-override; */
+    unicode-bidi: bidi-override;
+} */
+
+a {
+    color: orange;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    text-decoration-style: solid;
+    text-decoration-thickness: 7px;
 }
