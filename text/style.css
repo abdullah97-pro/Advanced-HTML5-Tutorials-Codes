@@ -31,4 +31,24 @@ a {
     text-decoration-color: black;
     text-decoration-style: solid;
     text-decoration-thickness: 7px;
+    text-transform: lowercase;
+}
+
+p {
+    /* text-indent: 100px; */
+    /* letter-spacing: -0.140em; */
+    /* line-height: 3em; */
+    /* word-spacing: 35px; */
+    /* white-space: nowrap; */
+    /* white-space: pre; */
+    /* font-size: 4vw; */
+    /* font-weight: 500; */
+    /* font-style: oblique; */
+    /* font-variant: small-caps; */
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+h1 {
+    /* color: white;
+    text-shadow: 2px 2px 4px #000, -2px -2px 1px #c50000; */
 }
