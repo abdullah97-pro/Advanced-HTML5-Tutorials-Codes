@@ -52,3 +52,38 @@ h1 {
     /* color: white;
     text-shadow: 2px 2px 4px #000, -2px -2px 1px #c50000; */
 }
+
+.box {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    margin: 5px;
+    position: absolute;
+}
+
+.box1 {
+    background-color: orange;
+    top: 30px;
+    left: 30px;
+    z-index: 2;
+}
+
+.box2 {
+    background-color: aliceblue;
+    top: 40px;
+    left: 40px;
+    z-index: -1;
+}
+
+.box3 {
+    background-color: blue;
+    z-index: 1;
+}
+
+.box4 {
+    background-color: green;
+}
+
+.box5 {
+    background-color: pink;
+}
