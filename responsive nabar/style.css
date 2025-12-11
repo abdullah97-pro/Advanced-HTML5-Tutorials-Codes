@@ -15,6 +15,7 @@
     width: 100%;
     height: 330px;
     background-color: var(--color-black);
+    overflow: auto;
 }
 
 .brand {
@@ -53,6 +54,32 @@
     background-color: var(--color-01);
 }
 
+.nav .nav-list ul {
+    display: none;
+    list-style-type: none;
+}
+
+.nav .nav-list ul li {
+    background-color: #571616;
+    margin: 1px;
+}
+
+.nav .nav-list ul li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--color-white);
+}
+
+.nav .nav-list ul li a:hover {
+    background-color: var(--color-01);
+}
+
+.nav .nav-list:hover ul {
+    display: block;
+}
+
 .nav .nav-list:last-child .nav-item {
     border: none;
 }
@@ -63,17 +90,18 @@
 
 @media (min-width: 748px) {
     .navbar {
-        height: 80px;
+        height: 40px;
     }
     
     .brand {
-        width: 20%;
+        width: 17%;
         height: 100%;
         float: left;
+        background-color: #571616;
     }
 
     .brand a img {
-        width: 160px;
+        width: 130px;
     }
     .nav {
         width: 80%;
@@ -86,9 +114,10 @@
     }
 
     .nav .nav-list .nav-item {
-        width: 120px;
+        width: 80px;
         border-bottom: none;
-        padding: 30px 20px;
+        padding: 12px 10px;
         text-align: center;
+        font-size: 0.8em;
     }
 }
