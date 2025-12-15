@@ -1,89 +1,22 @@
-/* h1 {
-    text-align: center;
+/* 
+Descendant combinator (space)
+child combinator (>)
+Next Sibling combinator (+)
+Subsequent sibling combinator (~)
+*/
+
+/* div p {
+    background-color: gray;
 }
 
-p {
-    text-align: justify;
-    text-align-last: center;
-}
-
-p span {
-    font-size: 10px;
-    vertical-align: baseline;
-}
-
-p span.v1 {
-    vertical-align: super;
-}
-
-p span.v2 {
-    vertical-align: sub;
-} */
-
-/* p {
-    direction: rtl;
-    unicode-bidi: bidi-override;
-} */
-
-a {
-    color: orange;
-    text-decoration-line: underline;
-    text-decoration-color: black;
-    text-decoration-style: solid;
-    text-decoration-thickness: 7px;
-    text-transform: lowercase;
-}
-
-p {
-    /* text-indent: 100px; */
-    /* letter-spacing: -0.140em; */
-    /* line-height: 3em; */
-    /* word-spacing: 35px; */
-    /* white-space: nowrap; */
-    /* white-space: pre; */
-    /* font-size: 4vw; */
-    /* font-weight: 500; */
-    /* font-style: oblique; */
-    /* font-variant: small-caps; */
-    font-family: 'Reem Kufi', sans-serif;
-}
-
-h1 {
-    /* color: white;
-    text-shadow: 2px 2px 4px #000, -2px -2px 1px #c50000; */
-}
-
-.box {
-    width: 100px;
-    height: 50px;
+div > p {
     background-color: red;
-    margin: 5px;
-    position: absolute;
-}
+} */
 
-.box1 {
+/* div + p {
     background-color: orange;
-    top: 30px;
-    left: 30px;
-    z-index: 2;
-}
+} */
 
-.box2 {
-    background-color: aliceblue;
-    top: 40px;
-    left: 40px;
-    z-index: -1;
-}
-
-.box3 {
-    background-color: blue;
-    z-index: 1;
-}
-
-.box4 {
-    background-color: green;
-}
-
-.box5 {
+div ~ p {
     background-color: pink;
 }
