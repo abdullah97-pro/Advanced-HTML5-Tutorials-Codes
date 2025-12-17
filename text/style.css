@@ -17,6 +17,70 @@ div > p {
     background-color: orange;
 } */
 
-div ~ p {
+/* div ~ p {
     background-color: pink;
+} */
+
+div a:link {
+    background-color: pink;
+}
+
+div a:visited {
+    background-color: orange;
+}
+
+div a:active {
+    background-color: red;
+}
+
+div a:hover {
+    background-color: cyan;
+}
+
+div input {
+    background-color: navajowhite;
+    border: none;
+    border-radius: 5px;
+}
+div input:focus {
+    background-color: black;
+    color: white;
+    padding: 3px 25px;
+}
+
+div p {
+    background-color: magenta;
+}
+
+div p:first-child {
+    background-color: maroon;
+}
+
+p em:first-child {
+    background-color: mediumaquamarine;
+}
+
+p:first-child em {
+    background-color: navajowhite;
+}
+
+p:last-child {
+    background-color: lawngreen;
+}
+
+div strong:first-child {
+    background-color: brown;
+}
+
+div strong:first-of-type {
+    background-color: palegreen;
+}
+div strong:last-of-type {
+    background-color: palegreen;
+}
+div strong:nth-of-type(2) {
+    background-color: tan;
+}
+q:lang(no) {
+    quotes: '~> 😍' '🙌 <~';
 }
