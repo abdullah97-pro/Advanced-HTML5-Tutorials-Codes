@@ -122,3 +122,20 @@ p::before {
 p::after {
     content: ">>>";
 }
+
+li {
+    color: pink;
+}
+
+li::marker {
+    color: orange;
+}
+
+::selection {
+    background-color: orange;
+    color: white;
+}
+
+dialog::backdrop {
+    background-color: red;
+}
