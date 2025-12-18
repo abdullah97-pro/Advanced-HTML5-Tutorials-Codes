@@ -21,7 +21,7 @@ div > p {
     background-color: pink;
 } */
 
-div a:link {
+/* div a:link {
     background-color: pink;
 }
 
@@ -83,4 +83,33 @@ div strong:nth-of-type(2) {
 }
 q:lang(no) {
     quotes: '~> 😍' '🙌 <~';
+} */
+
+
+p::first-letter {
+    font-size: 4em;
+}
+
+p::first-line {
+    color: blue;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    border-radius: 0 20px;
+    position: relative;
+}
+
+.box > .box1 {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 0 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    opacity: 0.4;
+    z-index: -1;
 }
