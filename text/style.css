@@ -102,7 +102,8 @@ p::first-line {
     position: relative;
 }
 
-.box > .box1 {
+.box:hover::after {
+    content: '';
     width: 200px;
     height: 100px;
     background-color: blue;
@@ -112,4 +113,12 @@ p::first-line {
     left: 20px;
     opacity: 0.4;
     z-index: -1;
+}
+
+p::before {
+    content: "A";
+}
+
+p::after {
+    content: ">>>";
 }
