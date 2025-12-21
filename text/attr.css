@@ -1,0 +1,35 @@
+a[target] {
+    background-color: red;
+}
+
+a[target="_blank"] {
+    background-color: orange;
+}
+
+input[type="text"] {
+    color: cyan;
+}
+
+/* [title] {
+    background-color: yellow;   
+} */
+
+/* [title~="fanaven"] {
+    background-color: navy;
+} */
+/* 
+[title*="fanaven"] {
+    background-color: navy;
+} */
+
+/* [title|="fanaven"] {
+    background-color: pink;
+} */
+
+/* [title^="fanaven"] {
+    background-color: navy;
+} */
+
+/* [title$="fanaven"] {
+    background-color: navy;
+} */
