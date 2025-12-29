@@ -1,0 +1,57 @@
+.box {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    position: relative;
+}
+
+.box0 {
+    width: 100px;
+    height: 10vh;
+    background-color: blue;
+    margin: 3px;
+    position: relative;
+    left: 0;
+}
+
+.box1 {
+    transition-timing-function: linear;
+    transition-duration: 5s;
+}
+.box2 {
+    transition-timing-function: ease;
+    transition-duration: 5s;
+}
+.box3 {
+    transition-timing-function: ease-in;
+    transition-duration: 5s;
+}
+.box4 {
+    transition-timing-function: ease-out;
+    transition-duration: 5s;
+}
+.box5 {
+    transition: all ease-in-out 4s;
+}
+.box6 {
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 4s;
+}
+
+.box1:hover {
+    left: 400px;
+}
+.box2:hover{
+    left: 400px;
+}
+.box3:hover{
+    left: 400px;
+}
+.box4:hover{
+    left: 400px;
+}
+.box5:hover{
+    left: 400px;
+}
+.box6:hover{
+    left: 400px;
+}
