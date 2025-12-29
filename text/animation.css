@@ -1,4 +1,4 @@
-.box {
+/* .box {
     width: 100%;
     height: 100vh;
     background-color: red;
@@ -54,4 +54,60 @@
 }
 .box6:hover{
     left: 400px;
+} */
+
+
+.box1 {
+    width: 50px;
+    height: 50px;
+    /* background-color: red; */
+    background-image: conic-gradient(red,yellow,blue);
+    animation-name: bgcolor;
+    animation-duration: 5s;
+    /* animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); */
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: backwards;
+    border-radius: 50%;
+    position: relative;
+}
+
+@keyframes bgcolor {
+    /* from {
+        background-color: red;
+    }
+    to {
+        background-color: yellow;
+    } */
+    0% {
+        background-color: red;
+        transform: rotate(0deg);
+        top: 0;
+        left: 0;
+    }
+    25% {
+        background-color: black;
+        transform: rotate(90deg);
+        top: 0;
+        left: 90%;
+    }
+    50% {
+        background-color: blue;
+        transform: rotate(180deg);
+        top: 600px;
+        left: 90%;
+    }
+    75% {
+        background-color: yellow;
+        transform: rotate(270deg);
+        top: 600px;
+        left: 0;
+    }
+    100% {
+        background-color: pink;
+        transform: rotate(360deg);
+        top: 0;
+        left: 0;
+    }
 }
