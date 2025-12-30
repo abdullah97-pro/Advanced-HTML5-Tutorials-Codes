@@ -69,6 +69,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
     animation-fill-mode: backwards;
+    animation-play-state: running;
     border-radius: 50%;
     position: relative;
 }
