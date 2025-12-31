@@ -4,29 +4,26 @@ section.container {
 }
 
 .image {
-    opacity: 1;
     display: block;
     width: 100%;
     height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
 }
 
 article.overlay {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    opacity: 0;
-    transition:  .5s ease;
-}
-
-section.container:hover .image {
-    opacity: 0.3;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: blue;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
 }
 
 section:hover article {
-    opacity: 1;
+    bottom: 0;
+    height: 100%;
 }
 
 .text {
