@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 15px;
+}
+
+.gallery-item {
+    position: relative;
+    width: calc(25% - 20px);
+    height: 300px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.1);
+}
+
+/* the modal background */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s ease;
+}
+
+.modal-content {
+    position: relative;
+    width: 90%;
+    height: auto;
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 5px;
+    overflow: hidden;
+    animation: zoomin 0.5s;
+}
+
+@keyframes zoomin {
+    from {transform: scale(0.6);}
+    to {transform: scale(1);}
+}
+
+.modal.show {
+    display: flex;
+    opacity: 1;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.caption {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .gallery-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .gallery-item {
+        width: calc(100% - 20px);
+    }
+}
