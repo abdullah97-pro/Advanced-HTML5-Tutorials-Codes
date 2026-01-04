@@ -1,0 +1,22 @@
+img {
+    width: 400px;
+    height: 400px;
+}
+
+.imagefilter {
+    /* filter: blur(20px); */
+    /* filter: brightness(120%); */
+    /* filter: contrast(120%); */
+    /* filter: drop-shadow(8px 8px 10px gray); */
+    /* filter: grayscale(50%); */
+    /* filter: hue-rotate(15deg); */
+    /* filter: invert(100%); */
+    /* filter: opacity(50%); */
+    /* filter: saturate(100%); */
+    filter: sepia(20%);
+    transition: 0.5s ease;
+}
+
+/* .imagefilter:hover {
+    filter: blur(0);
+} */
