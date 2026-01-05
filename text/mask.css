@@ -1,0 +1,13 @@
+.mask1 {
+    -webkit-mask-image: url('./img/m5.png');
+    mask-image: url('./img/m7.png');
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+.mask2 {
+    object-fit: contain;
+    mask-image: radial-gradient(circle, black 50%, rgba(0,0,0,0.2)50%);
+}
+
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./mask.css">
+</head>
+<body>
+
+    <svg width="600" height="400" xmlns="">
+        <mask id="svgmask2">
+            <polygon fill="#ff0000" points="200 0,400 400, 0 400"></polygon>
+        </mask>
+        <image xmlns="" xlink:href="./img/m4.jpg" mask="url(#svgmask2)"></image>
+    </svg>
+
+    <svg width="600" height="400" xmlns="">
+        <mask id="svgmask1">
+            <circle r="100" cx="170" cy="200" fill="#ffffff" />
+        </mask>
+        <image xmlns="" xlink:href="./img/m4.jpg" mask="url(#svgmask1)"></image>
+    </svg>
+    
+    <img src="./img/m4.jpg" alt="" class="mask1" width="800" height="600">
+
+    <img src="./img/m4.jpg" alt="" class="mask2" width="600" height="400">
+
+</body>
+</html>
