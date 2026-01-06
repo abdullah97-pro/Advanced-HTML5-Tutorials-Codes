@@ -1,0 +1,17 @@
+div {
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+}
+
+p {
+    text-align: justify;
+    column-count: 4;
+    /* column-gap: 45px; */
+    column-rule-style: dashed;
+    column-rule-width: 3px;
+    column-rule-color: green;
+    /* column-rule: 3px solid blue; */
+    /* column-span: all; */
+    column-width: 100px;
+}
